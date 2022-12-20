@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hassin/Music/cmake_basic_build_system/Basic_example/hello.c
+stdio.h
+-
+hello.h
+/home/hassin/Music/cmake_basic_build_system/Basic_example/hello.h
+
+/home/hassin/Music/cmake_basic_build_system/Basic_example/hello.h
+
+/home/hassin/Music/cmake_basic_build_system/Basic_example/main.c
+stdio.h
+-
+hello.h
+/home/hassin/Music/cmake_basic_build_system/Basic_example/hello.h
+

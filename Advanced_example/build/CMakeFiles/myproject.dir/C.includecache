@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lib1.h
+
+../include/lib2.h
+
+../include/util.h
+
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/src/lib/lib1.c
+stdio.h
+-
+lib1.h
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/src/lib/lib1.h
+lib2.h
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/src/lib/lib2.h
+
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/src/lib/lib2.c
+stdio.h
+-
+lib2.h
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/src/lib/lib2.h
+util.h
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/src/lib/util.h
+
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/src/main.c
+stdio.h
+-
+lib1.h
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/src/lib1.h
+
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/src/util.c
+stdio.h
+-
+util.h
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/src/util.h
+

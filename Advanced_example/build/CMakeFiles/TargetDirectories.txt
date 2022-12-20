@@ -1,0 +1,3 @@
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/build/CMakeFiles/rebuild_cache.dir
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/build/CMakeFiles/edit_cache.dir
+/home/hassin/Music/cmake_basic_build_system/Advanced_example/build/CMakeFiles/myproject.dir
